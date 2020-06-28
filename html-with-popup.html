@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html With Popup</title>
+  <link rel="stylesheet" href="html-with-popup.css">
+  <script>
+    const apiUrl = 'http://localhost:8080/api/get-text.json';
+  </script>
+</head>
+<body>
+  <div class="overlay-podium"></div>
+  Html With Popup - communicates with static JSON file &nbsp;&nbsp;&nbsp;
+  <button id="popup-btn">Open Popup</button>
+  <div class="popup-podium">
+    <div class="popup-container">
+      <div class="popup-content">POPUP</div><div class="popup-close-btn">❌</div>
+    </div>  
+  </div>
+  <script src="html-with-popup.js"></script>
+</body>
+</html>
