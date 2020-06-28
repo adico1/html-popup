@@ -20,3 +20,7 @@ That Url provides the same inteface but communicates with the PHP api.
 - popup triggered by button
 - popup data is fetched from an API
 - overlay is displayed with popup
+
+# PROJECT Content
+
+/api/ajax.abstract.php - the solution to the php abstract question
